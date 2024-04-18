@@ -1,0 +1,13 @@
+.header_navbar{
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.header_navbar ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style-type: none;
+}

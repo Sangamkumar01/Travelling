@@ -1,0 +1,7 @@
+.card_group_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    gap: 2.5rem;
+}

@@ -1,0 +1,28 @@
+.hero_section_container{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero_section_container > h2 {
+    font-weight: 200;
+    margin-top: -0.07rem;
+}
+
+.hero_section_container > input {
+    padding: 1rem;
+    width: 60%;
+    outline: none;
+    border-radius:  1rem;
+    font-size: 18px;
+}

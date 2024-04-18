@@ -1,0 +1,33 @@
+.adventure_container{
+    padding:  5vh 8vw;
+}
+.adventure_container>h1, .adventure_container>h3{
+    font-weight: 500;
+}
+
+.adventure_filter{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.adventure_filter>div{
+    padding-right: 1rem;
+    border-right: 2px solid #ced4da;
+    height: 2.4rem;
+}
+
+.adventure_filter span{
+    margin: 0px 1rem;
+    color: blue;
+    cursor: pointer;
+}
+
+.adventure_filter select{
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.37rem 0.75rem;
+    height: 2.4rem;
+    min-width: 18rem;
+}

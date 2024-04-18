@@ -1,0 +1,51 @@
+.adventure_card_container {
+    border: 2px solid #d3d3d3;
+    border-radius: 6px;
+    width: 15rem;
+    position: relative;
+}
+.adventure_card_container > img{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 13rem;
+    width: 100%;
+}
+
+.adventure_card_text{
+    padding: .5rem;
+}
+
+.adventure_card_text .adventure_name_price,.adventure_duration{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adventure_tag{
+    background-color: #FFA500;
+    color: white;
+    width: 40%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: .5rem;
+    position: absolute;
+    top: 1rem;
+    right: -1rem;
+    font-weight: bold;
+}
+
+.adventure_card_container:hover {
+    animation: zoom-out 1.5s forwards;
+    filter: brightness(70%);
+}
+
+@keyframes zoom-out{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.85);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

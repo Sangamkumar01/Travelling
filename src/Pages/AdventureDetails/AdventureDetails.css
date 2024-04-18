@@ -1,0 +1,35 @@
+.adventure-details-container{
+    display: flex;
+    padding: 7rem 5rem;
+}
+
+.adventure-details-container>div{
+    border: 1px solid #E5E5E5;
+}
+
+.adventure-details-container hr{
+    border-color: #E5E5E5;
+    margin: 1rem 2rem;
+}
+
+.adventure-details-flex-1{
+    flex:2;
+    color: #212529;
+    line-height: 1.3;
+}
+
+.adventure-details-container>h3{
+    color: #18191b;
+}
+
+.adventure-details-flex-1>div{
+    padding: 1rem;
+}
+
+.adventure-details-flex-1>img{
+    width: 100%;
+}
+
+.adventure-details-flex-2{
+    flex: 1;
+}
